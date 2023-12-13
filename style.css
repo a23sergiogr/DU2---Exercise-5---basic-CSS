@@ -1,0 +1,177 @@
+*{
+    color: #ffffff;
+    text-align: justify;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+article:first-child{
+    background-color: #354BF7;
+    padding: 25px;
+    
+    line-height: 1.8;
+
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+article:first-child h1{
+    font-size: 60px;
+}
+
+span{
+    background-color: #ffffff;
+    color: #354BF7;
+    font-weight: bolder;
+
+    border-radius:10px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+article:last-child{
+    margin-top: 150px;    
+}
+
+li {
+    background-color: #354BF7;
+    padding: 35px;
+
+
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+li h2{
+    background-color: #C70039;
+    padding:15px;
+
+    font-size: 40px;
+    text-align: center;
+
+    border-radius:10px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+li h3{
+    font-size: 30px;
+}
+
+li p{
+    line-height: 1.8;
+}
+
+li a{
+    background-color: #C70039;
+    color: #ffffff;
+    padding:10px;
+
+    text-decoration-line:none;
+
+    border: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: #C70039;
+    
+    text-align: center;
+
+}
+
+a:hover{
+    background-color: #ffffff;
+    color:#C70039;
+}
+
+
+.smallblue, .mediumblue, .bigblue, .bigwhite, .bigred{
+    position: absolute;
+}
+
+.smallblue, .mediumblue, .bigblue{
+    background-color: #354BF7;
+}
+
+.bigwhite{
+    background-color: #ffffff;
+}
+
+.bigred{
+    background-color: #C70039;
+}
+
+.mediumblue{
+    width: 10px;
+    height: 20px;
+    top: 560px;   
+}
+
+.smallblue{
+    width: 15px;
+    height: 15px;
+}
+
+#smallblue1{
+    position:absolute;
+    left: 80px;
+    top: 600px;
+}
+#smallblue2{
+    position:absolute;
+    left: 120px;
+    top: 600px;
+}
+#smallblue3{
+    position:absolute;
+    left: 160px;
+    top: 600px;
+}
+#smallblue4{
+    position:absolute;
+    left: 80px;
+    top: 640px;
+}
+#smallblue5{
+    position:absolute;
+    left: 120px;
+    top: 640px;
+}
+#smallblue6{
+    position:absolute;
+    left: 160px;
+    top: 640px;
+}
+
+#bigred{
+    width: 150px;
+    height: 130px; 
+    left: 53px;
+    top: 550px;
+}
+
+#bigwhite{
+    width: 110px;
+    height: 80px; 
+    left: 73px;
+    top: 583px;
+}
+
+#bigblue{
+    width: 130px;
+    height: 100px; 
+    left: 63px;
+    top: 573px;
+}
+
+#mediumblue1{
+    left: 83px;
+}
+#mediumblue2{
+    left: 163px;
+}
